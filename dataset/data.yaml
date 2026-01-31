@@ -1,0 +1,45 @@
+### VisDrone2019
+#train: E:\DataSets\VisDrone2019\images\train
+#val: E:\DataSets\VisDrone2019\images\val
+##
+### number of classes VisDrone
+#nc: 10
+##
+### class names VisDrone
+#names:
+#  0: pedestrian
+#  1: people
+#  2: bicycle
+#  3: car
+#  4: van
+#  5: truck
+#  6: tricycle
+#  7: awning-tricycle
+#  8: bus
+#  9: motor
+
+
+# TinyPerson
+#train: E:\DataSets\TinyPerson\dataset_tinyperson\images\train
+#val: E:\DataSets\TinyPerson\dataset_tinyperson\images\val
+
+# number of classes TinyPerson
+#nc: 1
+
+# class names TinyPerson
+#names:
+#  0: person
+
+## RSOD
+train: E:\DataSets\RSOD\images\train
+val: E:\DataSets\RSOD\images\val
+
+## number of classes RSOD
+nc: 4
+
+## class names RSOD
+names:
+  0: aircraft
+  1: oiltank
+  2: overpass
+  3: playground
